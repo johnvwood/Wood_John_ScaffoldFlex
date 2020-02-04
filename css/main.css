@@ -1,0 +1,109 @@
+html {
+	background-color: black;
+	width: 100%;
+}
+
+body {
+	background-color: white;
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 12px;
+}
+
+.hidden {
+	display: none;
+}
+
+.navbar {
+	background-color: transparent;
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+}
+
+.navbox {
+	background-color:black;
+	width: 200px;
+	height: 50px;
+	margin-top: 80px;
+}
+
+.navlogo {
+	width: 150px;
+	height: 150px;
+	background-color: black;
+}
+
+main {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.row1 {
+	margin:0 auto;
+	width: 1100px;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin-top: 160px;
+}
+
+.r1box1 {
+	width:60%;
+	background-color:black;
+}
+
+.r1box2 {
+	width:35%;
+	background-color:black;
+}
+
+.row2 {
+	margin:0 auto;
+	width: 1100px;
+	margin-top: 66px;
+	margin-bottom:60px;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.r2box {
+	width:22%;
+	background-color:black;
+}
+
+footer {
+	width:1120px;
+	height:100px;
+	margin:0 auto;
+	margin-top:50px;
+	margin-bottom:0px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footernav {
+	background-color: black;
+	width:55%;
+}
+
+.footercopy {
+	background-color: black;
+	width:30%;
+}
+
+.p2misc {
+	margin-top:160px;
+}
